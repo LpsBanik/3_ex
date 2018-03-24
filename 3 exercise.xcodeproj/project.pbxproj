@@ -14,6 +14,7 @@
 		78203DDF2062E391008D54B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78203DDD2062E391008D54B3 /* LaunchScreen.storyboard */; };
 		78203DE22062E391008D54B3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 78203DE12062E391008D54B3 /* main.m */; };
 		78203DEC2062E391008D54B3 /* __exerciseUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 78203DEB2062E391008D54B3 /* __exerciseUITests.m */; };
+		78FA436E2065496200E91672 /* TextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 78FA436D2065496200E91672 /* TextField.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		78203DE72062E391008D54B3 /* 3 exerciseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "3 exerciseUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		78203DEB2062E391008D54B3 /* __exerciseUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = __exerciseUITests.m; sourceTree = "<group>"; };
 		78203DED2062E391008D54B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78FA436C2065496200E91672 /* TextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextField.h; sourceTree = "<group>"; };
+		78FA436D2065496200E91672 /* TextField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextField.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,8 @@
 		78203DD12062E391008D54B3 /* 3 exercise */ = {
 			isa = PBXGroup;
 			children = (
+				78FA436C2065496200E91672 /* TextField.h */,
+				78FA436D2065496200E91672 /* TextField.m */,
 				78203DD22062E391008D54B3 /* AppDelegate.h */,
 				78203DD32062E391008D54B3 /* AppDelegate.m */,
 				78203DD52062E391008D54B3 /* ViewController.h */,
@@ -208,6 +213,7 @@
 				78203DD72062E391008D54B3 /* ViewController.m in Sources */,
 				78203DE22062E391008D54B3 /* main.m in Sources */,
 				78203DD42062E391008D54B3 /* AppDelegate.m in Sources */,
+				78FA436E2065496200E91672 /* TextField.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

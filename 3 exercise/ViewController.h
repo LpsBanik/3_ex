@@ -11,5 +11,8 @@
 @interface ViewController : UIViewController
 
 
+-(IBAction)actionClick:(id)sender;
+- (IBAction)actionTextChanged:(UITextField *)sender;
+
 @end
 
