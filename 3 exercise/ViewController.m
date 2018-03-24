@@ -47,7 +47,7 @@
 #pragma Actions
 -(IBAction)actionClick:(id)sender {
     
-    self.label.text = self.textField.text;
+    //self.label.text = self.textField.text;
     
     NSLog(@"New TEXT -> %@", self.label.text);
     if ([self.textField isFirstResponder]) {
